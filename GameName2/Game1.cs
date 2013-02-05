@@ -29,7 +29,7 @@ namespace RetroSeriesTennis
         const int   GAP_WALL_PADDLE = 100; //Gap between side of screen and paddle
         const float BALL_SERVING_VELOCITY = 7f; //initial speed of ball
         const float PADDLE_SPEED = 12f; //speed of paddles
-        const float SPEED_POST_COLLISION = 24.5f; //added speed of ball if hit by a moving paddle
+        const float SPEED_POST_COLLISION = 4.5f; //added speed of ball if hit by a moving paddle
         const int   WINNING_SCORE = 21;  //The score needed to win
 
         Paddle Paddle1;
