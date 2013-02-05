@@ -22,6 +22,10 @@ namespace RetroSeriesTennis
         {
             
             Gestures.Clear();
+            while (TouchPanel.IsGestureAvailable)
+            {
+                Gestures.Add(TouchPanel.ReadGesture());
+            }
             KeyboardState keyboardState = Keyboard.GetState();
             if (keyboardState.IsKeyDown(Keys.Enter))
             {
@@ -32,10 +36,8 @@ namespace RetroSeriesTennis
 
             foreach (GestureSample gesture in Gestures)
             {
-                if (gesture.GestureType == GestureType.Tap)
-                {
                     return "Enter";
-                }
+                
             }
              return "N/A";
         }

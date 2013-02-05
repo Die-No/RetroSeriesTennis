@@ -151,9 +151,13 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="Common\ReadMe.txt" />
+    <Content Include="Content\Pong150x150.png" />
+    <Content Include="Content\Pong30x30.png" />
+    <Content Include="Content\Pong310x150.png" />
     <Content Include="Content\PongBall.xnb" />
     <Content Include="Content\PongIcon.xnb" />
     <Content Include="Content\PongPaddle.xnb" />
+    <Content Include="Content\PongSplashScreen.png" />
     <Content Include="Content\RetroFont.xnb" />
     <Content Include="Content\BallCollisionBorder.xnb" />
     <Content Include="Content\BallCollisionPaddle.xnb" />

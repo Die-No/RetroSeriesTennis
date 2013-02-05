@@ -15,9 +15,15 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GameName2.App">
-      <VisualElements DisplayName="GameName2" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="GameName2" ForegroundText="dark" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="Assets\SplashScreen.png" />
+      <VisualElements DisplayName="GameName2" Logo="Content\Pong150x150.png" SmallLogo="Content\Pong30x30.png" Description="GameName2" ForegroundText="dark" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Content\Pong310x150.png" />
+        <SplashScreen Image="Content\PongSplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
